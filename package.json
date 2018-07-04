@@ -1,0 +1,21 @@
+{
+  "name": "hodowla_mazowieckie_ogary",
+  "version": "1.0.0",
+  "description": "mazowieckie-ogary-hodowla-onepage",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "slowakiewicz.github.io"
+  },
+  "keywords": [
+    "ogary"
+  ],
+  "author": "slowakiewicz",
+  "license": "ISC",
+  "dependencies": {
+    "lightbox2": "^2.10.0"
+  }
+}

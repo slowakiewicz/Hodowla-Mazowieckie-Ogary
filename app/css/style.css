@@ -1,0 +1,393 @@
+/* NAWIGACJIA I HEADER */
+
+.wrapheadandnav {
+    height: 100vh;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar .navbar-brand img {
+    height: 55px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #000;
+    padding-left: 4.75rem;
+    transition: all 0.2s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    color: #f28b66;
+}
+
+#zdjecietlo {
+    position: relative;
+    width: 100%;
+    background-image: url(../images/madziahead2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 81px);
+    background-position: top;
+    top: 81px;
+}
+
+#zdjecietlo .container .row .col-12 .wrapinfografika {
+    height: calc(100vh - 81px);
+    display: flex;
+}
+
+#zdjecietlo .container .row .col-12 .wrapinfografika .infografika {
+    background-image: url(../images/kolkouwaga.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: calc(90vh - 81px);
+    width: 100vw;
+    margin: auto;
+}
+
+#scrolllogohidden {
+    height: calc(100vh - 81px);
+    position: absolute;
+    visibility: hidden;
+}
+
+/* TEKSTY, NAGLOWKI SEKCJI I KRESKI PO NICH */
+
+h4 {
+    line-height: 1.5;
+}
+
+.teksty {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+}
+
+.teksty.tekstonas {
+    margin: 0 1rem;
+    padding: 0 0.5rem;
+}
+
+.naglowkisekcji {
+    font-family: "Open Sans", sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000;
+    overflow: hidden;
+    padding: 2rem 0 3rem 0;
+}
+
+.naglowkipadtop {
+    padding-top: 3.5rem;
+}
+
+.naglowkisekcji .drugieslowo {
+    font-family: "Open Sans", sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #f28b66;
+}
+
+.naglowkisekcji:after {
+    content: "";
+    display: inline-block;
+    height: 1.2rem;
+    vertical-align: bottom;
+    width: 100vw;
+    margin-right: -120%;
+    margin-left: 1.4rem;
+    border-top: 0.15rem solid grey;
+}
+
+.anchorfirst {
+    display: block;
+    height: 56px;
+    margin-top: -56px;
+    visibility: hidden;
+}
+
+/* SEKCJA NASZE OGARY */
+
+h5.latawystaw,
+h5.latawystawukr {
+    margin: 1.3rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+h5.latawystawukr {
+    margin-bottom: 1.3rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.naszeogary .fotkiogary {
+    width: 15rem;
+    height: 15rem;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: calc(50% - 7.5rem);
+    margin-bottom: 1.6rem;
+}
+
+.naszeogary .zdjecielusi a img {
+    height: 15rem;
+}
+
+.naszeogary .row .imiepsow,
+.imiepsow {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 1.333rem;
+    margin-bottom: 1.5rem;
+}
+
+.naszeogary .row .opisysuk,
+.teksty {
+    font-size: 1rem;
+    margin: 0 4rem;
+}
+
+.wyroznienie {
+    color: #f28b66;
+}
+
+/* FORMULARZ KONTAKTOWY */
+
+.formularzkontaktowy2 {
+    background-image: url(../images/tloformularz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 680px;
+}
+
+.formularztlo {
+    margin-top: 4rem;
+    background-color: rgba(242, 139, 102, 0.8);
+    padding: 1rem 3.5rem;
+}
+
+.formularzkontaktowy2 .form-group {
+    margin-bottom: 1.7rem;
+}
+
+.formularzkontaktowy2 .form-group input,
+.formularzkontaktowy2 .form-group textarea {
+    border: 0.08rem solid #fff;
+    background-color: transparent;
+    padding: 0.3rem 0 0.3rem 0.8rem;
+    border-radius: 0;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    resize: none;
+}
+
+.formularzkontaktowy2 .form-group input {
+    margin: 0.5rem 0;
+}
+
+.formularzkontaktowy2 .form-group textarea {
+    margin: 1.3rem 0 1.3rem 0;
+    height: 11.88rem;
+}
+
+.formularzkontaktowy2 .form-group input::placeholder,
+.formularzkontaktowy2 .form-group textarea::placeholder {
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+}
+
+.formularzkontaktowy2 .form-group button {
+    background-color: #fff;
+    padding: 0.5rem 0;
+    border-radius: 0;
+    border: none;
+    color: #f28b66;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    width: 70%;
+    cursor: pointer;
+}
+
+.formularzkontaktowy2 .form-group .butonikontakt {
+    display: inline-block;
+    width: 100%;
+}
+
+.formularzkontaktowy2 .form-group .butonikontakt .guzik {
+    width: 50%;
+    float: left;
+}
+
+.formularzkontaktowy2 .naglowekkontakt {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1.7rem 0;
+}
+
+.formularzkontaktowy2 .form-group .butonikontakt .adres {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    color: #fff;
+    font-size: 0.9rem;
+    line-height: 0.3rem;
+    width: 50%;
+    float: right;
+    text-align: right;
+    cursor: default;
+}
+
+/* UKRYTE KONTENERY, ZDJĘCIA I OPISY */
+
+.paddingopisy {
+    padding: 0;
+    margin: 0;
+}
+
+.naszeogary .row #ukrytyopis,
+.naszeogary .row #ukrytyopis1 {
+    display: none;
+}
+
+#galeriazdjec #ukrytagaleria {
+    display: none;
+}
+
+/* GALERIA */
+
+#galeriazdjec .row .foty a,
+#galeriazdjec .row .foty img {
+    display: inline-block;
+    height: 12.5rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+#galeriazdjec .row .foty a .maska {
+    position: absolute;
+    width: calc(100% - 30px);
+    height: 11.9rem;
+    margin: 0.3rem 15px;
+    top: 0;
+    left: 0;
+    transition: all 0.5s;
+}
+
+#galeriazdjec .row .foty a .maska .fa-search-plus {
+    margin-top: 6.25rem;
+    transform: translateY(-50%);
+    font-size: 3rem;
+    opacity: 0;
+    color: #f28b66;
+    transition: all 0.5s;
+}
+
+#galeriazdjec .row .foty a .maska:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+#galeriazdjec .row .foty a .maska:hover .fa-search-plus {
+    opacity: 1;
+}
+
+#galeriazdjec .row .foty img {
+    padding: 0.3rem 0;
+}
+
+#galeriazdjec .row #pokazgalerie,
+.naszeogary #pokazopis,
+.naszeogary #pokazopis1 {
+    margin: 0.6rem 0 1rem 0;
+    background-color: #f28b66;
+    color: white;
+    border: none;
+    padding: 0.5rem 1.1rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.naszeogary #pokazopis,
+.naszeogary #pokazopis1 {
+    margin-top: 1.8rem;
+}
+
+#galeriazdjec .row #pokazgalerie {
+    margin-top: 2rem;
+}
+
+/* O NAS */
+
+#onas .row .col-12 .onaszdjecie img {
+    max-width: 100%;
+    max-height: 22.56rem;
+}
+
+/* FOOTER */
+
+#bialypasek {
+    background-color: #fff;
+    height: 2rem;
+}
+
+#footer {
+    background-color: #dbdbdb;
+}
+
+#footer .podpis {
+    font-size: 0.8rem;
+}
+
+#footer .ikonymedia {
+    margin: 2rem 1.5rem;
+    display: inline-block;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: all 0.7s;
+}
+
+#footer .ikonymedia svg {
+    vertical-align: middle;
+    font-size: 2rem;
+    margin-top: 0.7rem;
+    color: #f28b66;
+}
+
+#footer .ikonymedia:hover {
+    background-color: #f28b66;
+}
+
+#footer .ikonymedia:hover svg {
+    color: #fff;
+}
+
+@-webkit-keyframes autofill {
+    to {
+        color: #fff;
+        background: transparent;
+    }
+}
+
+input:-webkit-autofill {
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+}
